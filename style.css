@@ -1,0 +1,11 @@
+body{
+    background-image: url("háttér.jpg");
+}
+.alap{
+    max-width: 1024px;
+    background-image: url("fatyol.png");
+    margin: auto;
+}
+#indexcím{
+    text-align: center;
+}
