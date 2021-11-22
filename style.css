@@ -1,5 +1,6 @@
 body{
-    background-image: url("háttér.jpg");
+    background-image: url("hatter.jpg");
+    background-repeat: no-repeat;
 }
 .alap{
     max-width: 1024px;
@@ -8,4 +9,10 @@ body{
 }
 #indexcím{
     text-align: center;
+}
+a::placeholder{
+ background-color: white;
+}
+a{
+    background-color: black;
 }
