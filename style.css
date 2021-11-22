@@ -2,7 +2,6 @@ body{
     background-image: url("hatter.png");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1440px;
     color:white;
 }
 
@@ -23,4 +22,8 @@ a{
     text-align: center;
     text-decoration: dotted;
     text-decoration-line: underline;
+}
+.szoveg{
+    text-align: left;
+    margin-right: 400px;
 }
