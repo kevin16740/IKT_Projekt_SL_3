@@ -1,12 +1,12 @@
 body{
-    background-image: url("hatter.jpg");
+    background-image: url("hatter.png");
     background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    color:white;
 }
-.alap{
-    max-width: 1024px;
-    background-image: url("fatyol.png");
-    margin: auto;
-}
+
+
 #indexcím{
     text-align: center;
 }
@@ -15,4 +15,12 @@ a::placeholder{
 }
 a{
     background-color: black;
+}
+#hatter{
+    background: rgba(0, 0, 0, 0.50);
+}
+#cim{
+    text-align: center;
+    text-decoration: dotted;
+    text-decoration-line: underline;
 }
