@@ -16,7 +16,7 @@ body{
     color: purple;
 }
 
-#hatter{
+.hatter{
     background: rgba(0, 0, 0, 0.50);
     margin: 80px;
 }
