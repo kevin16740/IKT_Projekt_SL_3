@@ -9,12 +9,6 @@ body{
     text-align: center;
 }
 
-.link {
-    color: darkturquoise;
-}
-.link:hover, .link:active{
-    color: purple;
-}
 
 .hatter{
     background: rgba(0, 0, 0, 0.50);
@@ -42,17 +36,17 @@ body{
     
 }
 .head li {
-  float: left;
+    float: left;
 }
 .head li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 .head li a:hover {
-  background-color: #111;
+    background-color: #111;
 }
 .head .active{
     background-color: darkturquoise;
@@ -66,20 +60,23 @@ body{
     max-width: 150px;
     margin-bottom: 100px;
 }
-.gyartmany{
-    font-size: 30px;
-}
-.gyartmany a{
-    text-decoration: none;
-    color: white;
-}
+
 .proceszorfelsorolas{
     text-align: end;
 }
+<<<<<<< HEAD
 .kapcsolat a{
     text-decoration: none;
     color: white;
 }
 span{
     color:rgb(4, 234, 238);
+=======
+.gyartmany a {
+    color: darkturquoise;
+    font-size: 30px;  
+}
+.gyartmany a:hover, .gyartmany a:active{
+    color: purple;
+>>>>>>> 8c1c1dcfb1576ba7ab8ff1fe2436f36584525bec
 }
