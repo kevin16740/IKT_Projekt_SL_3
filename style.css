@@ -76,3 +76,10 @@ body{
 .proceszorfelsorolas{
     text-align: end;
 }
+.kapcsolat a{
+    text-decoration: none;
+    color: white;
+}
+span{
+    color:rgb(4, 234, 238);
+}
