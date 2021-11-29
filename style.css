@@ -16,7 +16,7 @@ body{
     color: purple;
 }
 
-#hatter{
+.hatter{
     background: rgba(0, 0, 0, 0.50);
     margin: 80px;
 }
@@ -60,4 +60,9 @@ body{
 }
 .head .active:hover{
     background-color: rgb(4, 234, 238);
+}
+.gyartmanykep{
+    float: left;
+    max-width: 150px;
+    margin-bottom: 100px;
 }
