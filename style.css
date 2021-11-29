@@ -67,7 +67,11 @@ body{
     margin-bottom: 100px;
 }
 .gyartmany{
-    font-size: 30px;    
+    font-size: 30px;
+}
+.gyartmany a{
+    text-decoration: none;
+    color: white;
 }
 .proceszorfelsorolas{
     text-align: end;
