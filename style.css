@@ -71,10 +71,15 @@ body{
 span{
     color:rgb(4, 234, 238);
 }
-.gyartmany a{
+.gyartmany a, .kapcsolat a{
    color: darkturquoise;
    font-size: 30px; 
 }
-.gyartmany a:hover, .gyartmany a:active{
+.gyartmany a:hover, 
+.gyartmany a:active{
     color: purple;
+}
+.kapcsolat a:hover,
+.kapcsolat a:active{
+    color:darkturquoise;
 }
