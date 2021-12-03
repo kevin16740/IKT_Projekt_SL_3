@@ -78,3 +78,7 @@ span{
 .gyartmany a:hover, .gyartmany a:active{
     color: purple;
 }
+#video{
+    width: 1024px;
+    margin-left: 74px;
+}
