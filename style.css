@@ -64,19 +64,17 @@ body{
 .proceszorfelsorolas{
     text-align: end;
 }
-<<<<<<< HEAD
 .kapcsolat a{
     text-decoration: none;
     color: white;
 }
 span{
     color:rgb(4, 234, 238);
-=======
-.gyartmany a {
-    color: darkturquoise;
-    font-size: 30px;  
+}
+.gyartmany a{
+   color: darkturquoise;
+   font-size: 30px; 
 }
 .gyartmany a:hover, .gyartmany a:active{
     color: purple;
->>>>>>> 8c1c1dcfb1576ba7ab8ff1fe2436f36584525bec
 }
