@@ -30,4 +30,39 @@
         </ul>
     </div>
 </body>
+<form action="#" method="post" id="form_id">
+    <h2>Kapcsolatfelvételi űrlap</h2>
+    <fieldset class="felasznalo">
+      <legend> Felhasználó adatok: </legend>
+      <p><label for="name" class="label_1">Név</label> 
+         <input type="text" name="name" id="name" placeholder="júlia..." required>
+         <span>Júlia, Márk, Kevin</span></p>
+      <p><label for="email" class="label_1">E-mail</label>
+         <input type="email" name="email" id="email"  placeholder="Márk@..." required>
+         <span>júliaműrkkevin@jedlik.eu</span></p>
+      <p><label for="url" class="label_1">Honlap</label> 
+          <input type="url" name="url" id="url" placeholder="https://www.Kevin.hu/">
+          <span>https://júliamárkkevin.hu/</span></p>
+   </fieldset>
+   <fieldset class="targy">
+     <legend>Üzenet tárgya:</legend>
+     <input type="radio" name="info" id="vasar_info" value="vasar_info" class="radio">
+     <label for="vasar_info" >Vásárlási információk</label> 
+        *<br>
+   
+     <input type="radio" name="info" id="termek_info" value="termek_info" checked>
+     <label for="termek_info">Termékinformációk</label><br>     
+   
+     <input type="radio" name="info" id="szal_info" value="szal_info" >
+    <label for="szal_info">Szállítási információk</label>    
+   </fieldset>   
+   <fieldset>
+    <legend>Üzenet:</legend>
+    <label for="szoveg">Írja meg üzenetét!</label><br>
+    <textarea name="szoveg" id="szoveg" rows="4" cols="30" 
+        placeholder="Üzenet szövege..." required></textarea> <img id="küldésgomb" src="küldés gomb.png" alt="küldésgomb" title="küldésgomb"> 
+   </fieldset>   
+   <p style="font-weight:bold">a *-al jelölt 
+        mezők kitöltése kötelező. </p>
+   <p class="submit" ><input type="submit" value="E
 </html>
