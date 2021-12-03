@@ -1,9 +1,11 @@
 body{
     background-image: url("hatter.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat:no-repeat;
     color:white;
     font-size: 20px;
+    background-size: cover;
+    background-color: black;
+    
 }
 #indexcím{
     text-align: center;
@@ -21,7 +23,8 @@ body{
 }
 .szoveg{
     text-align: left;
-    margin-right: 200px;
+    margin: 0px 200px 0px 0px;
+
 }
 
 .head ul {
@@ -82,4 +85,8 @@ span{
 .kapcsolat a:hover,
 .kapcsolat a:active{
     color:darkturquoise;
+}
+#video{
+    width: 1024px;
+    margin-left: 74px;
 }
