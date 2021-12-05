@@ -98,6 +98,9 @@ span{
 #video{
     width: 1024px;
     margin-left: 74px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
 }
 #küldésgomb{
     width: 40px;
