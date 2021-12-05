@@ -6,8 +6,9 @@ body{
     background-size: cover;
     background-color: black;
     background-position: center;
-    back
+    background-attachment: fixed;
 }
+
 #indexcím{
     text-align: center;
 }
@@ -20,7 +21,14 @@ body{
 #cim{
     margin-top: 70px;
     text-align: center;
-    
+    text-decoration: underline;
+    text-decoration-style:solid;
+    color: darkturquoise;
+}
+h2, h3{
+    color: rgb(204, 204, 0);
+    text-decoration: underline;
+    text-decoration-style: dashed;
 }
 .szoveg{
     text-align: left;
