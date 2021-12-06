@@ -97,3 +97,17 @@ span{
 #vasarlas{
     font-size: 30px;
 }
+.hírkép{
+    float:right;
+    width:440px;
+    margin: 15px;
+
+}
+.hirhatter{
+    background-color: rgba(0, 0, 0, 0.50);
+    width: 1100px;
+    height: 220px;
+    text-align: justify;
+    margin: auto;
+    
+}
