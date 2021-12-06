@@ -5,13 +5,25 @@ body{
     font-size: 20px;
     background-size: cover;
     background-color: black;
+    background-attachment: fixed;
     
 }
 #indexcím{
     text-align: center;
 }
 
-
+h1{
+    text-decoration: underline;
+    text-decoration-style: solid;
+}
+h2{
+    text-decoration: underline;
+    text-decoration-style: dashed; 
+}
+h3{
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
 .hatter{
     background: rgba(0, 0, 0, 0.50);
     margin: 80px;    
@@ -70,16 +82,20 @@ body{
 .kapcsolat a{
     text-decoration: none;
     color: white;
+    font-size: 30px;
 }
 span{
     color:rgb(4, 234, 238);
 }
-.gyartmany a, .kapcsolat a{
+.gyartmany a
+.vasar a{
    color: darkturquoise;
-   font-size: 30px; 
+
 }
 .gyartmany a:hover, 
-.gyartmany a:active{
+.gyartmany a:active,
+.vasar a:hover,
+.vasar a:active{
     color: purple;
 }
 .kapcsolat a:hover,
