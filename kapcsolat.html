@@ -29,8 +29,8 @@
         <li class="kapcsolat"><span> Twitch:</span> <a href="https://www.twitch.tv/amd">https://www.twitch.tv/amd</a></li>
         </ul>
     </div>
-</body>
-<form action="#" method="post" id="form_id">
+
+<form action="submit.html" method="post" id="form_id">
     <h2>Kapcsolatfelvételi űrlap</h2>
     <fieldset class="felasznalo">
       <legend> Felhasználó adatok: </legend>
@@ -60,9 +60,11 @@
     <legend>Üzenet:</legend>
     <label for="szoveg">Írja meg üzenetét!</label><br>
     <textarea name="szoveg" id="szoveg" rows="4" cols="30" 
-        placeholder="Üzenet szövege..." required></textarea> <img id="küldésgomb" src="küldés gomb.png" alt="küldésgomb" title="küldésgomb"> 
-   </fieldset>   
+        placeholder="Üzenet szövege..." required></textarea>  
+        <input type="submit" value="Küldés">
+    </fieldset>   
    <p style="font-weight:bold">a *-al jelölt 
         mezők kitöltése kötelező. </p>
-   <p class="submit" ><input type="submit" value="E
+    </body>
+    
 </html>
